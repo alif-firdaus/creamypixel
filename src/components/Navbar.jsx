@@ -92,7 +92,7 @@ function Navbar() {
 						</a>
 					</div>
 				))}
-				<div className="flex items-center justify-center py-4 mt-12 text-lg bg-sand rounded-xl">
+				<div className="flex items-center justify-center py-4 mt-12 text-lg bg-sand rounded-xl" onClick={() => navigate("/Connect")}>
 					Let's talk 👋
 				</div>
 			</div>

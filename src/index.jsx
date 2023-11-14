@@ -12,6 +12,7 @@ import Service from "./pages/Service.jsx";
 import Projects from "./pages/Projects.jsx";
 import Subscription from "./pages/Subscription.jsx";
 import Blog from "./pages/Blog.jsx";
+import Connect from "./pages/Connect.jsx";
 
 // Import CSS Styling
 import "./input.css";

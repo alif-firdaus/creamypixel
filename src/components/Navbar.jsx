@@ -70,7 +70,7 @@ function Navbar() {
 
 			{/* Navbar Links */}
 			<div
-				className={`fixed flex pb-10 w-full flex-col px-sectionpxsm h-fit bg-bgbase border-t-[1px] border-slate-50 border-opacity-20
+				className={`fixed flex pb-12 w-full flex-col px-sectionpxsm h-fit bg-bgbase border-t-[1px] border-slate-50 border-opacity-20
             ${
 				isOpen
 					? "top-[88px] left-0 transition-all duration-700 ease-in-out"
@@ -92,7 +92,7 @@ function Navbar() {
 						</a>
 					</div>
 				))}
-				<div className="flex items-center justify-center py-4 text-lg bg-sand mt-9 rounded-xl">
+				<div className="flex items-center justify-center py-4 mt-12 text-lg bg-sand rounded-xl">
 					Let's talk 👋
 				</div>
 			</div>

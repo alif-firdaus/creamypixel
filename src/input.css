@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Google Font : Outfit */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap");
+
+/* Tailwind Config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	/* Color Palette */
+
+	/* Background */
+	--bgbase: #0d1026;
+	--bgsecondary: #151938;
+
+	/* Accent */
+	--sand: #fffae8;
+
+	/* Padding X sm & md */
+	--sectionpxsm: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	font-family: Outfit;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }

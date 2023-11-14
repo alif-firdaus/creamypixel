@@ -3,7 +3,19 @@ module.exports = {
 	mode: "jit",
 	content: ["./src/**/*.{html,js,jsx}", "./public/**/*.{html,js,jsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				// Background //
+				bgbase: "var(--bgbase)",
+				bgsecondary: "var(--bgsecondary)",
+
+				// Accent //
+				sand: "var(--sand)",
+			},
+			padding: {
+				sectionpxsm: "var(--sectionpxsm)",
+			},
+		},
 	},
 	plugins: [],
 };

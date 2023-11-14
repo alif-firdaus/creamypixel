@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// Import CSS Styling
+import "./input.css";
+
+// Import Sections
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/Hero-section";
+import AboutSection from "./components/About-section";
+import SubscriptionSection from "./components/Subscription-section";
+import FaqSection from "./components/Faq-section";
+import GetintouchSection from "./components/Getintouch-section";
+import Footer from "./components/Footer";
+
+const App = () => {
+	return (
+		<div className="bg-bgbase">
+			<Navbar />
+			<HeroSection />
+			<AboutSection />
+			<SubscriptionSection />
+			<FaqSection />
+			<GetintouchSection />
+			<Footer />
+		</div>
+	);
+};
 
 export default App;

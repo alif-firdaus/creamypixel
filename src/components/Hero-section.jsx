@@ -8,7 +8,7 @@ const HeroSection = () => {
 				magic!
 			</p>
 			<p className="text-lg font-light mt-7 text-slate-300">
-				Discover a new way to kickstart your startup with our rapid
+				Discover a new way to kickstart your business with our rapid
 				design magic. No more freelancer hassles—just a simple
 				subscription, unlimited revisions, and fast execution.
 			</p>

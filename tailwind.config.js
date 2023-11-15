@@ -10,6 +10,7 @@ module.exports = {
 				bgsecondary: "var(--bgsecondary)",
 
 				// Accent //
+				primary: "var(--primary)",
 				sand: "var(--sand)",
 			},
 			padding: {

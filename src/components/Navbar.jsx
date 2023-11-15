@@ -47,7 +47,7 @@ function Navbar() {
 			<div className="z-10 flex items-center justify-between w-screen py-6 bg-bgbase px-sectionpxsm">
 				{/* Navbar Title */}
 				<a href="/">
-					<div className="flex items-center justify-between gap-4 cursor-pointer text-sand">
+					<div className="flex items-center justify-between gap-4 pb-[1px] cursor-pointer text-sand">
 						<img src={logo} alt="logo" className="w-6" />
 						<p className="text-[25px] font-normal">creamypixel</p>
 					</div>

@@ -37,19 +37,6 @@
 	}
 }
 
-@keyframes marquee2 {
-	from {
-		transform: translateX(100%);
-	}
-	to {
-		transform: translateX(0%);
-	}
-}
-
 .marquee {
 	animation: marquee 30s linear infinite;
-}
-
-.marquee2 {
-	animation: marquee2 30s linear infinite;
 }

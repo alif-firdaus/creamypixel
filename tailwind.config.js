@@ -12,6 +12,7 @@ module.exports = {
 				// Accent //
 				primary: "var(--primary)",
 				sand: "var(--sand)",
+				black: "var(--black)",
 			},
 			padding: {
 				sectionpxsm: "var(--sectionpxsm)",

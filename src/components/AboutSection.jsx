@@ -34,9 +34,9 @@ const AboutSection = () => {
 				{/* Divider */}
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
 
-				{/* UX Strategy */}
+				{/* UI/UX Design */}
 				<div className="text-[64px] w-fit text-slate-300">
-					UX Strategy
+					UI/UX Design
 				</div>
 
 				{/* Divider */}
@@ -44,7 +44,7 @@ const AboutSection = () => {
 
 				{/* UX Strategy */}
 				<div className="text-[64px] w-fit text-slate-300">
-					App Design
+					UX Strategy
 				</div>
 
 				{/* Divider */}
@@ -66,9 +66,9 @@ const AboutSection = () => {
 				{/* Divider */}
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
 
-				{/* UX Strategy */}
+				{/* U?UX Design */}
 				<div className="text-[64px] w-fit text-slate-300">
-					UX Strategy
+					UI/UX Design
 				</div>
 
 				{/* Divider */}
@@ -76,7 +76,7 @@ const AboutSection = () => {
 
 				{/* UX Strategy */}
 				<div className="text-[64px] w-fit text-slate-300">
-					App Design
+					UX Strategy
 				</div>
 
 				{/* Divider */}
@@ -92,7 +92,7 @@ const AboutSection = () => {
 					Creamypixel is a Design Company Agency helping startups to
 					unlock their moves. Say goodbye to the hassle of wasting
 					your time finding for freelancers and hello to
-					lightning-fast deliverables.
+					lightning-fast execution.
 				</p>
 				<p className="mt-5 text-xl font-extralight text-slate-300">
 					With us, it's all about prioritizing your business goals and

@@ -5,11 +5,11 @@ import "./input.css";
 
 // Import Sections
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/Hero-section";
-import AboutSection from "./components/About-section";
-import SubscriptionSection from "./components/Subscription-section";
-import FaqSection from "./components/Faq-section";
-import GetintouchSection from "./components/Getintouch-section";
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
+import FaqSection from "./components/FaqSection";
+import GetintouchSection from "./components/GetintouchSection";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
 			<Navbar />
 			<HeroSection />
 			<AboutSection />
-			<SubscriptionSection />
+			<ProjectSection />
 			<FaqSection />
 			<GetintouchSection />
 			<Footer />

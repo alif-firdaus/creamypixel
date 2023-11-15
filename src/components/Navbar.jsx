@@ -43,7 +43,7 @@ function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<nav className="fixed top-0 w-screen flex items-center justify-between border-b-[1px] border-slate-50 border-opacity-20">
+		<nav className="fixed z-10 top-0 w-screen flex items-center justify-between border-b-[1px] border-slate-50 border-opacity-20">
 			<div className="z-10 flex items-center justify-between w-screen py-6 bg-bgbase px-sectionpxsm">
 				{/* Navbar Title */}
 				<a href="/">
@@ -92,7 +92,10 @@ function Navbar() {
 						</a>
 					</div>
 				))}
-				<div className="flex items-center justify-center py-4 mt-12 text-lg bg-sand rounded-xl" onClick={() => navigate("/Connect")}>
+				<div
+					className="flex items-center justify-center py-4 mt-12 text-lg bg-sand rounded-xl"
+					onClick={() => navigate("/Connect")}
+				>
 					Let's talk 👋
 				</div>
 			</div>

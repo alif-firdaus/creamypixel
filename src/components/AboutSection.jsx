@@ -50,6 +50,12 @@ const AboutSection = () => {
 				{/* Divider */}
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
 
+				{/* Revamp */}
+				<div className="text-[64px] w-fit text-slate-300">Revamp</div>
+
+				{/* Divider */}
+				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
+
 				{/* Product Design */}
 				<div className="text-[64px] w-fit text-slate-300">
 					Product Design
@@ -66,7 +72,7 @@ const AboutSection = () => {
 				{/* Divider */}
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
 
-				{/* U?UX Design */}
+				{/* UI/UX Design */}
 				<div className="text-[64px] w-fit text-slate-300">
 					UI/UX Design
 				</div>
@@ -78,6 +84,12 @@ const AboutSection = () => {
 				<div className="text-[64px] w-fit text-slate-300">
 					UX Strategy
 				</div>
+
+				{/* Divider */}
+				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
+
+				{/* Revamp */}
+				<div className="text-[64px] w-fit text-slate-300">Revamp</div>
 
 				{/* Divider */}
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />

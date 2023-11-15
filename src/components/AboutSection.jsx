@@ -8,7 +8,7 @@ import sparkle from "../assets/icons/sparkle.svg";
 const AboutSection = () => {
 	return (
 		<div className="mt-32">
-			{/* Marquee Col 1 */}
+			{/* Marquee */}
 			<Marquee
 				className="flex items-center flex-shrink-0 h-20 whitespace-nowrap"
 				style={{
@@ -83,10 +83,10 @@ const AboutSection = () => {
 				<img src={sparkle} alt="divider" className="w-7 h-7 mx-7" />
 			</Marquee>
 
+			{/* Description */}
 			<div className="mt-32 px-sectionpxsm">
 				<p className="text-4xl leading-none text-sand">
-					When it comes to making your first move, we've got your
-					back!
+					When it comes to making your move, we've got your back!
 				</p>
 				<p className="mt-10 text-xl font-extralight text-slate-300">
 					Creamypixel is a Design Company Agency helping startups to
@@ -100,6 +100,49 @@ const AboutSection = () => {
 					<span className="italic text-primary">'pssst'</span> we
 					always try to deliver results that go beyond expectations!
 				</p>
+			</div>
+
+			{/* Unique Selling-points */}
+			<div className="flex flex-col gap-4 mt-10 px-sectionpxsm">
+				{/* First USP */}
+				<div className="flex items-center justify-start gap-5">
+					<div className="flex self-start pt-[6px]">
+						<div className="w-4 h-4 rounded-full bg-primary"></div>
+					</div>
+					<p className="text-xl font-light text-sand">
+						Ask today, get designs tomorrow
+					</p>
+				</div>
+
+				{/* Second USP */}
+				<div className="flex items-center justify-start gap-5">
+					<div className="flex self-start pt-[6px]">
+						<div className="w-4 h-4 rounded-full bg-primary"></div>
+					</div>
+					<p className="text-xl font-light text-sand">
+						Unlimited design requests
+					</p>
+				</div>
+
+				{/* Third USP */}
+				<div className="flex items-center justify-start gap-5">
+					<div className="flex self-start pt-[6px]">
+						<div className="w-4 h-4 rounded-full bg-primary"></div>
+					</div>
+					<p className="text-xl font-light text-sand">
+						Cancel anytime without any requirements
+					</p>
+				</div>
+
+				{/* Fourth USP */}
+				<div className="flex items-center justify-start gap-5">
+					<div className="flex self-start pt-[6px]">
+						<div className="w-4 h-4 rounded-full bg-primary"></div>
+					</div>
+					<p className="text-xl font-light text-sand">
+						In-house senior quality, freelancer cost
+					</p>
+				</div>
 			</div>
 		</div>
 	);

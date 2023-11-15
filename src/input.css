@@ -11,14 +11,14 @@
 
 	/* Background */
 	--bgbase: #0d1026;
-	--bgsecondary: #1c1f32;
+	--bgsecondary: #1a1d31;
 
 	/* Accent */
 	--primary: #f9d849;
 	--sand: #fffae8;
 
 	/* Padding X sm & md */
-	--sectionpxsm: 30px;
+	--sectionpxsm: 26px;
 }
 
 * {

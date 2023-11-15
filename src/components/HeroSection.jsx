@@ -9,7 +9,7 @@ const HeroSection = () => {
 			<p className="mt-8 text-xl font-light text-slate-300">
 				Discover a new way to kickstart your business. No more
 				freelancer hassles—just a simple subscription, unlimited
-				revisions, and fast execution.
+				requests, and fast execution.
 			</p>
 
 			{/* Main Button */}

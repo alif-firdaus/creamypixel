@@ -97,7 +97,7 @@ const AboutSection = () => {
 
 			{/* Description */}
 			<div className="mt-32 px-sectionpxsm">
-				<p className="text-4xl leading-none text-sand">
+				<p className="text-[40px] leading-none text-sand">
 					When it comes to making your move, we've got your back!
 				</p>
 				<p className="mt-10 text-xl font-extralight text-slate-300">

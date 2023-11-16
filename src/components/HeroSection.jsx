@@ -4,7 +4,9 @@ const HeroSection = () => {
 	return (
 		<div className="pt-40 px-sectionpxsm">
 			<p className="text-[45px] leading-none text-sand">
-				Unleash your startup's first move with our rapid design magic!
+				Unleash your startup's{" "}
+				<span className="font-medium text-primary">first move</span>{" "}
+				with our rapid design magic!
 			</p>
 			<p className="mt-8 text-xl font-light text-slate-300">
 				Discover a new way to kickstart your business. No more

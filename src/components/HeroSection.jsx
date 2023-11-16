@@ -13,7 +13,7 @@ const HeroSection = () => {
 			</p>
 
 			{/* Main Button */}
-			<div className="flex items-center justify-center py-4 text-lg bg-primary mt-14 rounded-xl">
+			<div className="flex items-center justify-center pt-4 pb-5 text-lg bg-primary mt-14 rounded-xl">
 				Book a call
 			</div>
 		</div>

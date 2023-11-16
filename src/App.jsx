@@ -9,7 +9,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import UspSection from "./components/UspSection";
-import GetintouchSection from "./components/GetintouchSection";
+import GetstartedSection from "./components/GetstartedSection";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 
@@ -21,7 +21,7 @@ const App = () => {
 			<AboutSection />
 			<ProjectSection />
 			<UspSection />
-			<GetintouchSection />
+			<GetstartedSection />
 			<FaqSection />
 			<Footer />
 		</div>

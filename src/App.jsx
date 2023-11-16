@@ -9,8 +9,8 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import UspSection from "./components/UspSection";
-import FaqSection from "./components/FaqSection";
 import GetintouchSection from "./components/GetintouchSection";
+import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -21,8 +21,8 @@ const App = () => {
 			<AboutSection />
 			<ProjectSection />
 			<UspSection />
-			<FaqSection />
 			<GetintouchSection />
+			<FaqSection />
 			<Footer />
 		</div>
 	);

@@ -11,6 +11,7 @@ module.exports = {
 
 				// Accent //
 				primary: "var(--primary)",
+				secondary: "var(--secondary)",
 				sand: "var(--sand)",
 				black: "var(--black)",
 			},

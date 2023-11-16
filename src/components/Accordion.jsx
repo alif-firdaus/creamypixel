@@ -15,7 +15,7 @@ const Accordion = (props) => {
 
 	return (
 		<div
-			className={`p-4 rounded-lg bg-bgsecondary group transition-all ease-in-out duration-300 ${
+			className={`p-4 rounded-lg bg-red-300 group transition-all ease-in-out duration-300 ${
 				item.active === 1 ? "is-active" : ""
 			}`}
 		>

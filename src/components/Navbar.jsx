@@ -70,7 +70,7 @@ function Navbar() {
 
 			{/* Navbar Links */}
 			<div
-				className={`fixed flex pb-12 w-full flex-col px-sectionpxsm h-fit bg-bgbase border-t-[1px] border-slate-50 border-opacity-20
+				className={`fixed flex pb-12 w-full flex-col px-sectionpxsm h-screen bg-bgbase border-t-[1px] border-slate-50 border-opacity-20
             ${
 				isOpen
 					? "top-[88px] left-0 transition-all duration-700 ease-in-out"

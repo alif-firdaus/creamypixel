@@ -105,10 +105,10 @@ function FaqSection() {
 						undo the work.
 					</p>
 					<p className="mt-4">
-						We don't offer refunds if you are unhappy with a design.
-						But we are happy to work with you to ensure the design
-						is meeting your needs, which is why we offer unlimited
-						revisions and iterations.
+						We don't offer refunds if you are unhappy with the
+						results. But we are happy to work with you to ensure the
+						design is meeting your needs, which is why we offer
+						unlimited revisions and iterations.
 					</p>
 				</>
 			),

@@ -20,7 +20,10 @@ const Accordion = (props) => {
 			}`}
 		>
 			<div className="flex items-start justify-between">
-				<div className="text-lg text-sand group-[.is-active]:text-primary transition-all ease-in-out duration-300">
+				<div
+					className="text-xl text-sand group-[.is-active]:text-primary transition-all ease-in-out duration-300"
+					onClick={handletoggleActive}
+				>
 					{item.question}
 				</div>
 				<div className="flex items-start">
@@ -30,7 +33,7 @@ const Accordion = (props) => {
 					/>
 				</div>
 			</div>
-			<div className="overflow-hidden text-lg max-h-0 font-extralight text-slate-300 group-[.is-active]:max-h-[100px] group-[.is-active]:mt-4 transition-all ease-in-out duration-300">
+			<div className="overflow-hidden text-lg max-h-0 font-extralight text-slate-300 group-[.is-active]:max-h-fit group-[.is-active]:mt-6 transition-all ease-in-out duration-300">
 				{item.answer}
 			</div>
 		</div>

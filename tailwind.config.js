@@ -8,6 +8,7 @@ module.exports = {
 				// Background //
 				bgbase: "var(--bgbase)",
 				bgsecondary: "var(--bgsecondary)",
+				bgtertiary: "var(--bgtertiary)",
 
 				// Accent //
 				primary: "var(--primary)",

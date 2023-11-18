@@ -100,7 +100,7 @@ function FaqSection() {
 				<>
 					<p>
 						If you haven't requested any work, we offer partial
-						refund of 60% due to the time it will take us to perform
+						refund of 80% due to the time it will take us to perform
 						the administrative work to cancel your subscription and
 						undo the work.
 					</p>
@@ -117,7 +117,7 @@ function FaqSection() {
 
 	return (
 		<>
-			<div className="pb-64 text-white mt-52 px-sectionpxsm">
+			<div className="pb-64 mt-56 text-white px-sectionpxsm">
 				<p className="text-[40px] leading-none text-sand">
 					Frequently asked questions
 				</p>

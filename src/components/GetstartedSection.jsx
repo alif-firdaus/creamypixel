@@ -2,7 +2,7 @@ import React from "react";
 
 const GetstartedSection = () => {
 	return (
-		<div className="mt-40 px-sectionpxsm">
+		<div className="mt-52 px-sectionpxsm">
 			<p className="text-5xl leading-none text-sand">
 				See if cremypixel is{" "}
 				<span className="font-medium text-primary">legit</span> option
